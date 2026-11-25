@@ -1,0 +1,37 @@
+{
+  "_how_to_edit": "Each template needs a name. Allowed fields (free version): type (Playing / Listening to / Watching / Competing in), details, state, details_url, state_url, large_image, large_text, small_image, small_text. Free variables: {time} {time12} {date} {day} {session} {members} {online}. Buttons and other variables are Insane Elite only - don't use them here. Members see changes the next time they open AsylumRP Free.",
+  "templates": [
+    {
+      "name": "Anime Asylum member",
+      "type": "Playing",
+      "details": "Hanging out in Anime Asylum",
+      "state": "{members} members • {online} online",
+      "details_url": "https://discord.gg/anime-asylum"
+    },
+    {
+      "name": "Anime night",
+      "type": "Watching",
+      "details": "Anime night in the asylum 🍿",
+      "state": "Pull up a chair",
+      "details_url": "https://discord.gg/anime-asylum"
+    },
+    {
+      "name": "Seasonal binge",
+      "type": "Watching",
+      "details": "Catching up on this season",
+      "state": "Just one more episode"
+    },
+    {
+      "name": "Manga corner",
+      "type": "Playing",
+      "details": "Reading manga in the asylum 📖",
+      "state": "{time} and still reading"
+    },
+    {
+      "name": "Happy day",
+      "type": "Playing",
+      "details": "Happy {day} from Anime Asylum",
+      "state": "{online} people online right now"
+    }
+  ]
+}
